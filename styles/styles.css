@@ -108,6 +108,7 @@ ul.nav-page li a {
     margin: 2px 10px 2px 2px;
     border:5px solid transparent;
     z-index:1;
+    cursor: pointer;
 }
 .nav li.photo1 {
 	background:url(../images/FOTOZIOMKA_BW.png) no-repeat;
@@ -175,7 +176,7 @@ div.subject-matter p {
     width: 768px;
 }
 
-.galery-category{
+.gallery-category{
 	background-color: #fff;
     height: 282px;
     left: 333px;
@@ -184,18 +185,18 @@ div.subject-matter p {
     position:absolute;
     width: 314px;
 }
-.galery-category ul{
+.gallery-category ul{
 	overflow:hidden;	
 }
-.galery-category li{
+.gallery-category li{
 	background:url(../images/galery-marker.fw.png) no-repeat;
 	background-position:left;
 	margin-bottom: 10px;
 }
-.galery-category li:hover{
+.gallery-category li:hover{
 	background-color:#FFA800;	
 }
-.galery-category li a {
+.gallery-category li a {
 	font-size:18px;
 	color:#000;
 	padding-left:20px;
@@ -442,23 +443,34 @@ ul.social li:first-child, ul.social li:last-child {
 	color:#fff;
 	text-align:center;
 }
-.masage {
-	background:url(../images/masage.fw.png), url(../images/envelope.fw.png);
-	background-repeat: no-repeat, no-repeat;
-	background-position:0% 18,100% 0%;
+.message {
+	background:url(../images/masage.fw.png);
+	background-repeat: no-repeat;
+	background-position:0% 18%;
 	height:163px;
     margin:0 auto;
     width:628px;	
 	position:relative;
 	bottom:63px;
+    cursor: pointer;
 }
-.masage p {
+.message p {
 	font-size: 23px;
     position: relative;
     text-align: center;
     top: 31px;
     width: 442px;
 	text-transform:uppercase;
+}
+.small-message {
+    background:url(../images/envelope.fw.png);
+    background-repeat: no-repeat;
+    background-position:100% 0%;
+    width: 154px;
+    height: 126px;
+    display: inline;
+    float: right;
+    cursor: pointer;
 }
 .two-big-photo {
 	overflow:hidden;
@@ -515,7 +527,7 @@ table{
 .photo-frame{
 	margin-bottom:35px;
 }
-.small-masage p{
+.small-message p{
 	font-size:40px;
 	top:41px;
 }
@@ -543,27 +555,28 @@ table{
 	overflow:hidden;
 	margin-bottom:120px;
 }
-.photo-galery-wrapp {
+.photo-gallery-wrapp {
 	float:left;
 }
-.photo-galery-wrapp img{
+.photo-gallery-wrapp img{
 	width:501px;
 	height:343px;
 }
-.photo-galery-wrapp ul {
+.photo-gallery-wrapp ul {
 	overflow:hidden;
 	margin-top:31px;
 	text-align:center;
 }
-.photo-galery-wrapp ul  li{
+.photo-gallery-wrapp ul  li{
 	overflow:hidden;
 	float:left;
 	margin-right:10px;
 	margin-top:30px;
 }
-.photo-galery-wrapp li img {
+.photo-gallery-wrapp li img {
 	width:110px;
 	height:74px;
+    cursor: pointer;
 }
 .info-wrapp {
 	background-color:#585858;

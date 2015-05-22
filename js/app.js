@@ -31,6 +31,13 @@
         $target.parentNode.parentNode.parentNode.querySelector('img').src = $target.src;
     });
 
+
+
+    $('.content .page2 .big-list-photo img').on('click', function(e) {
+
+        console.log('hi');
+    });
+
 })();
 
 function linkTo(rel) {
