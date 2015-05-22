@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Index</title>
+<title>UjinPhoto</title>
 <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 <!-- <link href="http://www.allfont.es/css/?fonts=a_avantebsnr-light" rel="stylesheet" type="text/css" /> -->
 </head>
@@ -13,40 +13,40 @@
 			
 			<ul class="nav-page-list">
 				<li>		
-					<ul class="nav-page">
-						<li><a href="#">Ціни</a></li>
-						<li><a href="#">Галерея</a></li>
-						<li><a href="#">Умови</a></li>
-						<li><a href="#">Зв'язок</a></li>
+					<ul id="nav-page1" class="nav-page display">
+						<li><a href="#" onclick="linkTo('price')">Ціни</a></li>
+						<li><a href="#" onclick="linkTo('gallery-category')">Галерея</a></li>
+						<li><a href="#" onclick="linkTo('conditions')">Умови</a></li>
+						<li><a href="#" onclick="linkTo('contact-information')">Зв'язок</a></li>
 					</ul>
 				</li>
-				<!-- <li>		
-					<ul class="nav-page">
-						<li><a href="#">Запрошення</a></li>
-						<li><a href="#">Пакети/коробки</a></li>
-						<li><a href="#">Декор</a></li>
-						<li><a href="#">Зв'язок</a></li>
+				<li>
+					<ul id="nav-page2" class="nav-page no-display">
+						<li><a href="#" onclick="linkTo('invitations')">Запрошення</a></li>
+						<li><a href="#" onclick="linkTo('packages')">Пакети/коробки</a></li>
+						<li><a href="#" onclick="linkTo('decoration')">Декор</a></li>
+						<li><a href="#" onclick="linkTo('contact-information')">Зв'язок</a></li>
 					</ul>
 				</li>
-				<li>		
-					<ul class="nav-page">
-						<li><a href="#">Поліграфічна фотокнига</a></li>
-						<li><a href="#">Класична фотокнига</a></li>
-						<li><a href="#">Layflat фотокнига</a></li>
-						<li><a href="#">Зв'язок</a></li>
+				<li>
+					<ul id="nav-page3" class="nav-page no-display">
+						<li><a href="#" onclick="linkTo('polygraphy')">Поліграфічна фотокнига</a></li>
+						<li><a href="#" onclick="linkTo('classic')">Класична фотокнига</a></li>
+						<li><a href="#" onclick="linkTo('LayFlat')">Layflat фотокнига</a></li>
+						<li><a href="#" onclick="linkTo('contact-information')">Зв'язок</a></li>
 					</ul>
-				</li> -->
+				</li>
 				
 			</ul>
 			<ul class="nav">
-				<li>
-					<a href="index.html" class="photo1"><!-- Фотозйомка --></a>
+				<li class="photo1 photo1-active">
+					<!-- Фотозйомка -->
 				</li>
-				<li>
-					<a href="#" class="photo2"><!-- Поліграфія --></a>
+				<li class="photo2">
+					<!-- Поліграфія -->
 				</li>
-				<li>
-					<a href="#" class="photo3"><!-- Photobook --></a>
+				<li class="photo3">
+					<!-- Photobook -->
 				</li>
 			</ul>
 			<div class="information">
@@ -61,7 +61,7 @@
 			
 			
 			<ul>
-				<li>
+				<li id="page1" class="page1 display">
 					 <!-- Перша сторінка --> 
 						
 					   <div class="subject-matter">
@@ -137,11 +137,11 @@
 							<li><p>Всі отримані фотографії можуть бути використані фотографом у своему портфоліо в інтернеті. При замовленні конфіденційної фотозйомки її вартість збільшується на 50% (Про такий вид зйомки необхідно попередити до фотосесії!) </p></li>
 						</ul>
 					</div> 
-				</li>-->
-				 <li class="page2">
+				</li>
+				 <li id="page2" class="page2 no-display">
 					 <!-- Друга сторінка -->
 					
-					 <h2>Запрошення</h2>
+					<h2 class="invitations">Запрошення</h2>
 					<ul class="invitation">
 						<li><img src="images/evro.fw.png" alt=""/><p>Євро 99х210мм</p></li>
 						<li><img src="images/mini.fw.png" alt=""/><p>Міні 99х99мм</p></li>
@@ -164,7 +164,7 @@
 						<p>Запропонуйте мені щось цікаве</p>
 						<p>Перезвоніть мені</p>
 					</div>
-					<h2>Подарунки для гостей</h2>
+					<h2 class="packages">Подарунки для гостей</h2>
 					<div class="two-big-photo">
 						<img src="images/big-photo1.fw.png" alt=""/>
 						<img src="images/big-photo2.fw.png" alt=""/>
@@ -193,7 +193,7 @@
 					<div class="masage small-masage">
 						<p>Хочу замовити</p>
 					</div>
-					<h2>Фоторамки від Art Well</h2>
+					<h2 class="decoration">Фоторамки від Art Well</h2>
 					<div class="photo-frame">
 						<img src="images/photo-frame1.fw.png" alt=""/>
 						<img src="images/photo-frame2.fw.png" alt=""/>
@@ -209,10 +209,10 @@
 					</div>
 				</li> 
 				<!-- Третя сторінка -->
-				<li class="page3">
+				<li id="page3" class="page3 no-display">
 					<ul class="book-list">
 						<li>
-							<h2>Поліграфічна фотокнига</h2>
+							<h2 class="polygraphy">Поліграфічна фотокнига</h2>
 							<div class="photo-galery-wrapp">
 								<img src="images/1.jpg" alt=""/>
 							<ul>
@@ -242,7 +242,7 @@
 							</div>
 						</li>
 						<li>
-							<h2>Класична фотокнига</h2>
+							<h2 class="classic">Класична фотокнига</h2>
 							<div class="photo-galery-wrapp">
 								<img src="images/4.jpg" alt=""/>
 							<ul>
@@ -272,7 +272,7 @@
 							</div>
 						</li>	
 						<li>
-							<h2>LayFlat фотокнига</h2>
+							<h2 class="LayFlat">LayFlat фотокнига</h2>
 							<div class="photo-galery-wrapp">
 								<img src="images/7.jpg" alt=""/>
 							<ul>
@@ -333,5 +333,7 @@
 			<p>Сделано клмандой Projectico</p>
 		</footer>
 	</div>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
