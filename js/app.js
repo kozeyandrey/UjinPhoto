@@ -26,6 +26,11 @@
         }
     });
 
+    $('.content ul.book-list ul img').on('click', function(e) {
+        var $target = (e.target);
+        $target.parentNode.parentNode.parentNode.querySelector('img').src = $target.src;
+    });
+
 })();
 
 function linkTo(rel) {
