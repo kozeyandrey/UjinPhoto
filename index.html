@@ -13,7 +13,7 @@
 			
 			<ul class="nav-page-list">
 				<li>		
-					<ul class="nav-page">
+					<ul id="nav-page1" class="nav-page display">
 						<li><a href="#" onclick="linkTo('price')">Ціни</a></li>
 						<li><a href="#" onclick="linkTo('gallery-category')">Галерея</a></li>
 						<li><a href="#" onclick="linkTo('conditions')">Умови</a></li>
@@ -21,7 +21,7 @@
 					</ul>
 				</li>
 				<li>
-					<ul class="nav-page">
+					<ul id="nav-page2" class="nav-page no-display">
 						<li><a href="#" onclick="linkTo('invitations')">Запрошення</a></li>
 						<li><a href="#" onclick="linkTo('packages')">Пакети/коробки</a></li>
 						<li><a href="#" onclick="linkTo('decoration')">Декор</a></li>
@@ -29,7 +29,7 @@
 					</ul>
 				</li>
 				<li>
-					<ul class="nav-page">
+					<ul id="nav-page3" class="nav-page no-display">
 						<li><a href="#" onclick="linkTo('polygraphy')">Поліграфічна фотокнига</a></li>
 						<li><a href="#" onclick="linkTo('classic')">Класична фотокнига</a></li>
 						<li><a href="#" onclick="linkTo('LayFlat')">Layflat фотокнига</a></li>
@@ -40,7 +40,7 @@
 			</ul>
 			<ul class="nav">
 				<li>
-					<a href="index.html" class="photo1"><!-- Фотозйомка --></a>
+					<a href="#" class="photo1 photo1-active"><!-- Фотозйомка --></a>
 				</li>
 				<li>
 					<a href="#" class="photo2"><!-- Поліграфія --></a>
@@ -61,7 +61,7 @@
 			
 			
 			<ul>
-				<li>
+				<li id="page1" class="page1 display">
 					 <!-- Перша сторінка --> 
 						
 					   <div class="subject-matter">
@@ -137,8 +137,8 @@
 							<li><p>Всі отримані фотографії можуть бути використані фотографом у своему портфоліо в інтернеті. При замовленні конфіденційної фотозйомки її вартість збільшується на 50% (Про такий вид зйомки необхідно попередити до фотосесії!) </p></li>
 						</ul>
 					</div> 
-				</li>-->
-				 <li class="page2">
+				</li>
+				 <li id="page2" class="page2 no-display">
 					 <!-- Друга сторінка -->
 					
 					<h2 class="invitations">Запрошення</h2>
@@ -209,7 +209,7 @@
 					</div>
 				</li> 
 				<!-- Третя сторінка -->
-				<li class="page3">
+				<li id="page3" class="page3 no-display">
 					<ul class="book-list">
 						<li>
 							<h2 class="polygraphy">Поліграфічна фотокнига</h2>

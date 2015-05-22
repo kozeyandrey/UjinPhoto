@@ -125,21 +125,29 @@ ul.nav-page li a {
 .photo1:hover{
 	background:url(../images/FOTOZIOMKA_COLOR.png) no-repeat;
 }
-/* a.photo1:active{
+.nav li .photo1-active{
 	background:url(../images/FOTOZIOMKA_COLOR.png) no-repeat;
-} */
+    border:5px solid #FFA800;
+}
 .photo2 {
 	background:url(../images/POLYGRAPHY_BW.png) no-repeat;
 }
 .photo2:hover {
 	background:url(../images/POLYGRAPHY_COLOR.png) no-repeat;
 }
-
+.nav li .photo2-active{
+    background:url(../images/POLYGRAPHY_COLOR.png) no-repeat;
+    border:5px solid #FFA800;
+}
 .photo3{
 	background:url(../images/PHOTOBOOK_BW.png) no-repeat;
 }
 .photo3:hover{
 	background:url(../images/PHOTOBOOK_COLOR.png) no-repeat;
+}
+.nav li .photo3-active{
+    background:url(../images/PHOTOBOOK_COLOR.png) no-repeat;
+    border:5px solid #FFA800;
 }
 .content {
 	width:1024px;
