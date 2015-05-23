@@ -26,6 +26,7 @@
         }
     });
 
+
     $('.content ul.book-list ul img').on('click', function(e) {
         var $el = $(e.target).parent().parent().parent().find('img').first();
         $el.animate({
@@ -37,7 +38,6 @@
             }, 200);
         });
     });
-
 
 
     $('.content .page2 .big-list-photo img').on('click', function(e) {
