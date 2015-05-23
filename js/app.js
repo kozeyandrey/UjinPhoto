@@ -1,8 +1,8 @@
 (function(){
     $('header ul.nav').on('click', function(e) {
-        var $target = (e.target),
-            oldNumber = $('.content ul li.display').attr('class').charAt(4),
-            newNumber = $target.className[5];
+        var $target = $(e.target),
+            oldNumber = $('.content ul li.display')[0].className[4],
+            newNumber = $target[0].className[5];
 
         if (oldNumber !== newNumber) {
             $('#nav-page' + oldNumber)
@@ -27,8 +27,7 @@
     });
 
     $('.content ul.book-list ul img').on('click', function(e) {
-        var $target = (e.target);
-        $target.parentNode.parentNode.parentNode.querySelector('img').src = $target.src;
+        $(e.target).parent().parent().parent().find('img')[0].src = $(e.target)[0].src;
     });
 
 
