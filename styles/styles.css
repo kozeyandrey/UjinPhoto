@@ -176,31 +176,6 @@ div.subject-matter p {
     width: 768px;
 }
 
-.gallery-category{
-	background-color: #fff;
-    height: 282px;
-    left: 333px;
-    opacity: 0.84;
-    padding: 3px 12px 25px;
-    position:absolute;
-    width: 314px;
-}
-.gallery-category ul{
-	overflow:hidden;	
-}
-.gallery-category li{
-	background:url(../images/galery-marker.fw.png) no-repeat;
-	background-position:left;
-	margin-bottom: 10px;
-}
-.gallery-category li:hover{
-	background-color:#FFA800;	
-}
-.gallery-category li a {
-	font-size:18px;
-	color:#000;
-	padding-left:20px;
-}
 .slider {
 	border-bottom:10px solid #FFA800;
 	margin-bottom:17px;
