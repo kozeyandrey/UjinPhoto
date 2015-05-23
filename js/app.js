@@ -27,7 +27,15 @@
     });
 
     $('.content ul.book-list ul img').on('click', function(e) {
-        $(e.target).parent().parent().parent().find('img')[0].src = $(e.target)[0].src;
+        var $el = $(e.target).parent().parent().parent().find('img').first();
+        $el.animate({
+            opacity: 0
+        }, 200, function() {
+            $el[0].src = $(e.target)[0].src;
+            $el.animate({
+                opacity: 1
+            }, 200);
+        });
     });
 
 
