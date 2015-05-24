@@ -39,7 +39,7 @@
         });
     });
 
-
+    $('#ca-container').contentcarousel();
 })();
 
 function linkTo(rel) {
