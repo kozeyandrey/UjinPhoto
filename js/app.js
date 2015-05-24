@@ -31,9 +31,7 @@
     $('#ca-container').contentcarousel();
 
 
-    $( "#tabs" ).tabs({
-        collapsible: true
-    });
+    $( "#tabs" ).tabs();
 
 
     $('.content ul.book-list ul img').on('click', function(e) {
