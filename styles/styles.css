@@ -192,7 +192,7 @@ div.subject-matter p {
 .ca-item{
     position:relative;
     float:left;
-    width:350px;
+    width:342px;
     height:100%;
     text-align:center;
 }
@@ -216,8 +216,8 @@ div.subject-matter p {
     margin:0 auto;
 }
 .ca-nav span{
-    width:25px;
-    height:38px;
+    width:28px;
+    height:56px;
     position:absolute;
     top:50%;
     margin-top:-19px;

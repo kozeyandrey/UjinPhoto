@@ -1,4 +1,5 @@
 (function(){
+
     $('header ul.nav').on('click', function(e) {
         var $target = $(e.target),
             oldNumber = $('.content ul li.display')[0].className[4],
@@ -27,6 +28,12 @@
     });
 
 
+    $('#ca-container').contentcarousel();
+
+
+    $( "#tabs" ).tabs();
+
+
     $('.content ul.book-list ul img').on('click', function(e) {
         var $el = $(e.target).parent().parent().parent().find('img').first();
         $el.animate({
@@ -39,7 +46,6 @@
         });
     });
 
-    $('#ca-container').contentcarousel();
 })();
 
 function linkTo(rel) {
