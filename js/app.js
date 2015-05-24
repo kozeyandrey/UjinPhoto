@@ -40,6 +40,10 @@
     });
 
     $('#ca-container').contentcarousel();
+
+    $( "#tabs" ).tabs({
+        collapsible: true
+    });
 })();
 
 function linkTo(rel) {
