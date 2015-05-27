@@ -201,6 +201,9 @@ div.subject-matter p {
     text-align: center;
     width: 768px;
 }
+.ui-tabs .ui-tabs-panel {
+    padding: 0 !important;
+}
 /* Circular Content Carousel Style */
 .ca-container{
     position:relative;
