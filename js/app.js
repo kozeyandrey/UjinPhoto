@@ -28,7 +28,16 @@
     });
 
 
-    $('#ca-container').contentcarousel();
+    $('#ca-container-1').contentcarousel();
+    $('#ca-container-2').contentcarousel();
+    $('#ca-container-3').contentcarousel();
+    $('#ca-container-4').contentcarousel();
+    $('#ca-container-5').contentcarousel();
+    $('#ca-container-6').contentcarousel();
+    $('#ca-container-7').contentcarousel();
+    $('#ca-container-8').contentcarousel();
+    $('#ca-container-9').contentcarousel();
+    $('#ca-container-10').contentcarousel();
 
 
     $( "#tabs" ).tabs();
