@@ -71,7 +71,6 @@ h1 {
 	text-align:center;
 	width:163px;
 	height:110px;
-	padding-bottom:20px;
 	margin:auto;
 }
 
@@ -81,12 +80,14 @@ h1 {
 .nav-page-list{
 	margin-bottom:30px;
 }
+.nav-page-list li {
+	
+}
 /* nav in page */
 .nav-page {
 	border-bottom: 4px solid #a8a8a8;
     display: inline-block;
     margin: 0 auto;
-    padding-left: 28px;
     padding-top: 10px;
 	padding-bottom:10px;
     
@@ -107,9 +108,12 @@ h1 {
 #nav-page3 li:last-child {
     width: 100px;
 }
-.nav-page li {
+ul.nav-page li {
 	display:inline-block;
 	padding-right:28px;
+}
+ul.nav-page li:last-child {
+	padding-right:-28px;
 }
 ul.nav-page li a {
 	font-family:Myriad Pro;
@@ -132,19 +136,20 @@ ul.nav-page li a {
     z-index:1;
     cursor: pointer;
 }
+.nav li:first-child{
+	background: url(../images/background-arrow.fw.png) no-repeat;
+	background-position:50% 100%;
+}
 .nav li.photo1 {
 	background:url(../images/FOTOZIOMKA_BW.png) no-repeat;
 }
 .nav li.photo1:hover {
-	background:url(../images/FOTOZIOMKA_COLOR.png) , url(../images/background-arrow.fw.png);
+	background:url(../images/FOTOZIOMKA_COLOR.png);
 	background-repeat:no-repeat,no-repeat;
-	background-position:0% 0%,50% 100%;
 }
 .nav li.photo1-active {
-	background:url(../images/FOTOZIOMKA_COLOR.png), url(../images/background-arrow.fw.png);
+	background:url(../images/FOTOZIOMKA_COLOR.png) no-repeat;
     border:5px solid #FFA800;
-	background-repeat:no-repeat,no-repeat;
-	background-position:0% 0%,50% 100%;
 }
 .nav li.photo2 {
 	background:url(../images/POLYGRAPHY_BW.png) no-repeat;
@@ -208,12 +213,14 @@ div.subject-matter p {
     height:450px;
     border-bottom:10px solid #FFA800;
     margin-bottom:17px;
-    box-shadow: 3px -13px 24px -15px #000000 inset,-3px 17px 24px -15px #000000 inset;
+    
+
 }
 .ca-wrapper{
     width:100%;
     height:100%;
     position:relative;
+	box-shadow: 0px -3px 17px 0px #808080 inset;
 }
 .ca-item{
     position:relative;
@@ -247,7 +254,7 @@ div.subject-matter p {
     position:absolute;
     top:50%;
     margin-top:-19px;
-    left:-40px;
+    left:30px;
     text-indent:-9000px;
     opacity:0.7;
     cursor:pointer;
@@ -259,7 +266,7 @@ div.subject-matter p {
 .ca-nav span.ca-nav-next{
     background:url(../images/right-arrow.fw.png) no-repeat top right;
     left:auto;
-    right:-40px;
+    right:30px;
 }
 .ca-nav span:hover{
     opacity:1.0;
@@ -407,14 +414,14 @@ ul.social li:first-child, ul.social li:last-child {
 	background-color:#FFA800;
 	text-align:center;
 	padding:23px 94px 21px 52px;
-	height:253px;
+	height:262px;
 	margin-bottom:40px;
 	-webkit-box-shadow: 0 7px 13px 0 #080808;
 	box-shadow: 0 7px 13px 0 #080808;
 }
 .question form {
 	overflow:hidden;
-	height:300px;
+	height:310px;
 }
 .question p {
 	font-family:Myriad Pro;
@@ -423,25 +430,37 @@ ul.social li:first-child, ul.social li:last-child {
 }
 .question textarea {
 	width:878px;
-	height:184px;
+	height:147px;
 	resize: none;
 	font-size:25px;
 }
 .question input[type="button"] {
 	background-color: #ffa800;
     border: 3px solid #585858;
-	border-radius:5px;
+    border-radius: 5px;
+    bottom: -34px;
     color: #585858;
+    cursor: pointer;
+    float: left;
     font-size: 26px;
     height: 58px;
+    left: 17px;
+    margin-bottom: 162px;
+    position: relative;
     width: 220px;
-	margin-bottom:162px;
-	cursor:pointer;
-	position: relative;
-	bottom:12px;
 	
 }
 
+.question input[type="text"] {
+	float: right;
+    height: 47px;
+    margin-top: 9px;
+    width: 446px;
+	font-family:Myriad Pro;
+	font-size:24px;
+	color:#B0B0B0;
+	box-shadow: 0px -3px 17px 0px #808080 inset;
+}
 
 
 /* сторінка 2 */
