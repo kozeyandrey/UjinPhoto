@@ -141,34 +141,34 @@ ul.nav-page li a {
 	background-position:50% 100%;
 }
 .nav li.photo1 {
-	background:url(../images/FOTOZIOMKA_BW.png) no-repeat;
+	background:url(../images/photomaking-black.png) no-repeat;
 }
 .nav li.photo1:hover {
-	background:url(../images/FOTOZIOMKA_COLOR.png);
+	background:url(../images/photomaking-color.png);
 	background-repeat:no-repeat,no-repeat;
 }
 .nav li.photo1-active {
-	background:url(../images/FOTOZIOMKA_COLOR.png) no-repeat;
+	background:url(../images/photomaking-color.png) no-repeat;
     border:5px solid #FFA800;
 }
 .nav li.photo2 {
-	background:url(../images/POLYGRAPHY_BW.png) no-repeat;
+	background:url(../images/polygraphy-black.png) no-repeat;
 }
 .nav li.photo2:hover {
-	background:url(../images/POLYGRAPHY_COLOR.png) no-repeat;
+	background:url(../images/polygraphy-color.png) no-repeat;
 }
 .nav li.photo2-active {
-    background:url(../images/POLYGRAPHY_COLOR.png) no-repeat;
+    background:url(../images/polygraphy-color.png) no-repeat;
     border:5px solid #FFA800;
 }
 .nav li.photo3 {
-	background:url(../images/PHOTOBOOK_BW.png) no-repeat;
+	background:url(../images/photobook-black.png) no-repeat;
 }
 .nav li.photo3:hover {
-	background:url(../images/PHOTOBOOK_COLOR.png) no-repeat;
+	background:url(../images/photobook-color.png) no-repeat;
 }
 .nav li.photo3-active {
-    background:url(../images/PHOTOBOOK_COLOR.png) no-repeat;
+    background:url(../images/photobook-color.png) no-repeat;
     border:5px solid #FFA800;
 }
 .content {
