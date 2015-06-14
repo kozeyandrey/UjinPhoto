@@ -1,6 +1,6 @@
-(function(){
+(function () {
 
-    $('header ul.nav').on('click', function(e) {
+    $('header ul.nav').on('click', function (e) {
         var $target = $(e.target),
             oldNumber = $('.content ul li.display')[0].className[4],
             newNumber = $target[0].className[5];
@@ -28,17 +28,26 @@
     });
 
 
-    $('#ca-container').contentcarousel();
+    $('#ca-container-1').contentcarousel();
+    $('#ca-container-2').contentcarousel();
+    $('#ca-container-3').contentcarousel();
+    $('#ca-container-4').contentcarousel();
+    $('#ca-container-5').contentcarousel();
+    $('#ca-container-6').contentcarousel();
+    $('#ca-container-7').contentcarousel();
+    $('#ca-container-8').contentcarousel();
+    $('#ca-container-9').contentcarousel();
+    $('#ca-container-10').contentcarousel();
 
 
-    $( "#tabs" ).tabs();
+    $("#tabs").tabs();
 
 
-    $('.content ul.book-list ul img').on('click', function(e) {
+    $('.content ul.book-list ul img').on('click', function (e) {
         var $el = $(e.target).parent().parent().parent().find('img').first();
         $el.animate({
             opacity: 0
-        }, 200, function() {
+        }, 200, function () {
             $el[0].src = $(e.target)[0].src;
             $el.animate({
                 opacity: 1
