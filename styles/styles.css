@@ -60,7 +60,7 @@ a:hover                        { text-decoration:none; }
 header {
     width:1024px;
     padding-top:20px;
-    background: url(../images/background-header3.fw.png) no-repeat;
+    background: url(../images/background-header.fw.png) no-repeat;
     background-position:29px -41px;
     overflow:hidden;
     margin-right:30px;
@@ -93,13 +93,13 @@ header h1 {
 
 }
 #nav-page1{
-    width: 652px;
+    width: 655px;
 }
 #nav-page2{
-    width: 985px;
+    width: 987px;
 }
 #nav-page3{
-    width: 955px;
+    width: 957px;
 }
 #nav-page3 li {
     text-align: center;
@@ -112,9 +112,6 @@ ul.nav-page li {
     display:inline-block;
     padding-right:28px;
 }
-/* ul.nav-page li:last-child {
-	padding-right:-28px;
-} */
 ul.nav-page li a {
     font-family:'Myriad Pro';
     font-size:42px;
@@ -204,12 +201,63 @@ div.subject-matter p {
     width: 768px;
 }
 /* Circular Content Carousel Style */
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
+	color:#000;
+}
+.ui-widget-header{
+	background:none;
+	border:none;
+}
+.ui-widget-content{
+	background:none;
+	border:none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	background-color:#FFA800;
+}
+.ui-tabs .ui-tabs-nav li{
+	height:57px;
+	white-space:normal;
+	margin:0;
+}
+.ui-tabs .ui-tabs-nav li:first-child{
+	right:0px;
+}
+.ui-tabs .ui-tabs-nav li a{
+	font-family: "Arial Unicode MS";
+    font-size: 16px;
+    padding: 10px 11px;
+    text-align: center;
+}
+.ui-tabs .ui-tabs-panel{
+	padding:0;
+}
+.ui-tabs {
+	padding:0;
+	background-color:#585858;
+}
+.ui-tabs .ui-tabs-nav {
+	padding:0;
+}
+.ui-tabs li{
+	border-radius: 24px 13px 0 0;
+    box-shadow: 2px 0 26px 0 #000000;
+    transform: skewX(-14deg);
+    transform-origin: 0 100% 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{
+	border-bottom-right-radius:0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+	border-bottom-left-radius:0;
+}
 .ca-container{
     position:relative;
     width:1024px;
     height:450px;
     border-bottom:10px solid #FFA800;
-    margin-bottom:17px;
+    /* margin-bottom:17px; */
 
 
 }
@@ -365,7 +413,8 @@ ul.description li:last-child {
 }
 
 .contact-information input[type="text"] {
-    display: inline-block;
+    color: #585858;
+	display: inline-block;
     font-size: 32px;
     font-style: italic;
     height: 58px;
@@ -375,6 +424,7 @@ ul.description li:last-child {
     padding-right: 6px;
     padding-top: 6px;
     width: 558px;
+	text-align:center;
 }
 .contact-information input[type="button"] {
     background-color: #ffa800;
