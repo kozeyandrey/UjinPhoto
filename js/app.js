@@ -27,17 +27,21 @@
         }
     });
 
-
-//    $('#ca-container-1').contentcarousel();
-//    $('#ca-container-2').contentcarousel();
-//    $('#ca-container-3').contentcarousel();
-//    $('#ca-container-4').contentcarousel();
-//    $('#ca-container-5').contentcarousel();
-//    $('#ca-container-6').contentcarousel();
-//    $('#ca-container-7').contentcarousel();
-//    $('#ca-container-8').contentcarousel();
-//    $('#ca-container-9').contentcarousel();
-//    $('#ca-container-10').contentcarousel();
+    var slickConfig = {
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+    };
+    $('#ca-container-1').slick(slickConfig);
+    $('#ca-container-2').slick(slickConfig);
+    $('#ca-container-3').slick(slickConfig);
+    $('#ca-container-4').slick(slickConfig);
+    $('#ca-container-5').slick(slickConfig);
+    $('#ca-container-6').slick(slickConfig);
+    $('#ca-container-7').slick(slickConfig);
 
 
     $('#tabs').tabs();
