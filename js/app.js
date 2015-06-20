@@ -40,7 +40,8 @@
     $('#ca-container-10').contentcarousel();
 
 
-    $("#tabs").tabs();
+    $('#tabs').tabs();
+    $('#textarea').val('');
 
 
     $('.content ul.book-list ul img').on('click', function (e) {
