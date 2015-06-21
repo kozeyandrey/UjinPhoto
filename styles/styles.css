@@ -342,7 +342,7 @@ div.subject-matter p {
 .ui-tabs .ui-tabs-nav li a {
     font-family: "Arial Unicode MS";
     font-size: 16px;
-    padding: 10px 11px;
+    padding: 10px 36px;
     text-align: center;
 }
 
@@ -395,6 +395,9 @@ div.subject-matter p {
     float: left;
     height: 100%;
     text-align: center;
+}
+.ca-item img {
+    height: inherit;
 }
 
 .ca-item-main {
