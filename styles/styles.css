@@ -160,11 +160,15 @@ header h1 {
 /*-------------------------------------NAV------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .nav-page-list {
-    margin-bottom: 30px;
+    height: 115px;
+    width: 100%;
+    margin: 15px 0;
+    display: table;
 }
 
 .nav-page-list li {
-
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /* nav in page */
@@ -174,7 +178,6 @@ header h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 	text-align:center;
-
 }
 #nav-page3 {
     width: 957px;
@@ -191,7 +194,7 @@ header h1 {
 
 ul.nav-page li {
     display: inline-block;
-    padding-right: 28px;
+    padding: 0 14px;
 }
 
 ul.nav-page li a {
