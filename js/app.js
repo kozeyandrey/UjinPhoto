@@ -45,6 +45,10 @@
 
 
     $('#tabs').tabs();
+    $('#tabs ul li a').on('click', function(e) {
+        var tabId = $(e.target).attr('href');
+        $(tabId).find('button.slick-next').click();
+    });
     $('#textarea').val('');
 
 

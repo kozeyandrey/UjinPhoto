@@ -48,8 +48,33 @@
         -ms-transform: translate3d(0, 0, 0);
          -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
+			height:440px;
 }
-
+button.slick-prev, button.slick-next {
+	width: 28px;
+    height: 56px;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    left: 30px;
+    text-indent: -9000px;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 100;
+	border:none;
+}
+button.slick-prev{
+	background: url(../images/left-arrow.fw.png) no-repeat top left;
+}
+button.slick-next{
+	background: url(../images/right-arrow.fw.png) no-repeat top right;
+    left: auto;
+    right: 30px;
+	opacity: 0.7;
+}
+button.slick-prev:hover, button.slick-next:hover{
+	opacity: 1.0;
+}
 .slick-track
 {
     position: relative;
