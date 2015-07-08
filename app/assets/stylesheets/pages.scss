@@ -143,7 +143,8 @@ a:hover {
 header {
   width: 1024px;
   padding-top: 20px;
-  background: url('background-header.fw.png') no-repeat;
+  background-image: cloudinary-url('background-header.fw.png');
+  background-repeat: no-repeat;
   background-position: 29px -41px;
   overflow: hidden;
   margin-right: 30px;
@@ -225,47 +226,56 @@ ul.nav-page li a {
 }
 
 .nav li:first-child {
-  background: url('background-arrow.fw.png') no-repeat;
+  background-image: cloudinary-url('background-arrow.fw.png');
+  background-repeat: no-repeat;
   background-position: 50% 100%;
 }
 
 .nav li.photo1 {
-  background: url('photomaking-black.png') no-repeat;
+  background-image: cloudinary-url('photomaking-color.png', $effect: "grayscale");
+  background-repeat: no-repeat;
 }
 
 .nav li.photo1:hover {
-  background: url('photomaking-color.png');
-  background-repeat: no-repeat, no-repeat;
+  background-image: cloudinary-url('photomaking-color.png');
+  background-repeat: no-repeat;
 }
 
 .nav li.photo1-active {
-  background: url('photomaking-color.png') no-repeat;
+  background-image: cloudinary-url('photomaking-color.png');
+  background-repeat: no-repeat;
   border: 5px solid #FFA800;
 }
 
 .nav li.photo2 {
-  background: url('polygraphy-black.png') no-repeat;
+  background-image: cloudinary-url('polygraphy-color.png', $effect: "grayscale");
+  background-repeat: no-repeat;
 }
 
 .nav li.photo2:hover {
-  background: url('polygraphy-color.png') no-repeat;
+  background-image: cloudinary-url('polygraphy-color.png');
+  background-repeat: no-repeat;
 }
 
 .nav li.photo2-active {
-  background: url('polygraphy-color.png') no-repeat;
+  background-image: cloudinary-url('polygraphy-color.png');
+  background-repeat: no-repeat;
   border: 5px solid #FFA800;
 }
 
 .nav li.photo3 {
-  background: url('photobook-black.png') no-repeat;
+  background-image: cloudinary-url('photobook-color.png', $effect: "grayscale");
+  background-repeat: no-repeat;
 }
 
 .nav li.photo3:hover {
-  background: url('photobook-color.png') no-repeat;
+  background-image: cloudinary-url('photobook-color.png');
+  background-repeat: no-repeat;
 }
 
 .nav li.photo3-active {
-  background: url('photobook-color.png') no-repeat;
+  background-image: cloudinary-url('photobook-color.png');
+  background-repeat: no-repeat;
   border: 5px solid #FFA800;
 }
 
@@ -432,11 +442,15 @@ div.subject-matter p {
 }
 
 .tabs span.ca-nav-prev {
-  background: url('left-arrow.fw.png') no-repeat top left;
+  background-image: cloudinary-url('left-arrow.fw.png');
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .tabs span.ca-nav-next {
-  background: url('right-arrow.fw.png') no-repeat top right;
+  background-image: cloudinary-url('right-arrow.fw.png');
+  background-repeat: no-repeat;
+  background-position: top right;
   left: auto;
   right: 30px;
 }
@@ -533,7 +547,7 @@ ul.description li:last-child {
 }
 
 .conditions li {
-  background: url('marker.fw.png'), url('grey-marker.fw.png');
+  background-image: cloudinary-url('marker.fw.png'), cloudinary-url('grey-marker.fw.png');
   background-repeat: no-repeat, no-repeat;
   background-position: 0 8px, 100% 12px;
   overflow: hidden;
@@ -704,7 +718,21 @@ ul.social li {
   float: left;
   margin: 0 4px 2px 12px;
 }
-
+.big-list-photo li a .photo_bike:hover {
+  content: cloudinary_url('color-list-photo-bikes.png');
+}
+.big-list-photo li a .photo_single:hover {
+  content: cloudinary_url('color-list-photo-single.png');
+}
+.big-list-photo li a .photo_butterfly:hover {
+  content: cloudinary_url('color-list-photo-butterfly.png');
+}
+.big-list-photo li a .photo_passport:hover {
+  content: cloudinary_url('color-list-photo-passport.png');
+}
+.big-list-photo li a .photo_cards:hover {
+  content: cloudinary_url('color-list-photo-cards.png');
+}
 .invitation-thems {
   background-color: #585858;
   padding: 37px 24px 72px 24px;
@@ -741,7 +769,8 @@ ul.social li {
   overflow: hidden;
   display: block;
   text-indent: -400px;
-  background: url('background-link.fw.png') no-repeat;
+  background-image: cloudinary-url('background-link.fw.png');
+  background-repeat: no-repeat;
 }
 
 li.big-message a {
