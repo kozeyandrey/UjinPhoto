@@ -5,29 +5,28 @@
     <ul class="nav-page-list">
       <li>
         <ul id="nav-page1" class="nav-page display">
-          <li><a href="#" onclick="linkTo('price')">ціни</a></li>
-          <li><a href="#" onclick="linkTo('slider')">галерея</a></li>
-          <li><a href="#" onclick="linkTo('conditions')">умови</a></li>
-          <li><a href="#" onclick="linkTo('contact-information')">зв’язок</a></li>
+          <li><%= link_to 'ціни', '#', onclick: "linkTo('price')" %></li>
+          <li><%= link_to 'галерея', '#', onclick: "linkTo('slider')" %></li>
+          <li><%= link_to 'умови', '#', onclick: "linkTo('conditions')" %></li>
+          <li><%= link_to 'зв’язок', '#', onclick: "linkTo('contact-information')" %></li>
         </ul>
       </li>
       <li>
         <ul id="nav-page2" class="nav-page no-display">
-          <li><a href="#" onclick="linkTo('invitations')">запрошення</a></li>
-          <li><a href="#" onclick="linkTo('packages')">пакети/коробки</a></li>
-          <li><a href="#" onclick="linkTo('decoration')">декор</a></li>
-          <li><a href="#" onclick="linkTo('contact-information')">зв’язок</a></li>
+          <li><%= link_to 'запрошення', '#', onclick: "linkTo('invitations')" %></li>
+          <li><%= link_to 'пакети/коробки', '#', onclick: "linkTo('packages')" %></li>
+          <li><%= link_to 'декор', '#', onclick: "linkTo('decoration')" %></li>
+          <li><%= link_to 'зв’язок', '#', onclick: "linkTo('contact-information')" %></li>
         </ul>
       </li>
       <li>
         <ul id="nav-page3" class="nav-page no-display">
-          <li><a href="#" onclick="linkTo('polygraphy')">поліграфічна фотокнига</a></li>
-          <li><a href="#" onclick="linkTo('classic')">класична фотокнига</a></li>
-          <li><a href="#" onclick="linkTo('LayFlat')">layflat фотокнига</a></li>
-          <li><a href="#" onclick="linkTo('contact-information')">зв’язок</a></li>
+          <li><%= link_to 'поліграфічна фотокнига', '#', onclick: "linkTo('polygraphy')" %></li>
+          <li><%= link_to 'класична фотокнига', '#', onclick: "linkTo('classic')" %></li>
+          <li><%= link_to 'layflat фотокнига', '#', onclick: "linkTo('LayFlat')" %></li>
+          <li><%= link_to 'зв’язок', '#', onclick: "linkTo('contact-information')" %></li>
         </ul>
       </li>
-
     </ul>
     <ul class="nav">
       <li class="photo1 photo1-active">
@@ -61,17 +60,16 @@
 
         <div id="tabs" class="slider">
           <ul>
-            <li><a href="#tabs-1">Love <br/>story</a></li>
-            <li><a href="#tabs-2">Весілля</a></li>
-            <li><a href="#tabs-3">Випускні</a></li>
-            <li><a href="#tabs-4">Дитяча<br/>фотозйомка</a></li>
-            <li><a href="#tabs-5">Дні<br/> народження</a></li>
-            <li><a href="#tabs-6">Сімейна<br/>фотозйомка</a></li>
-            <li><a href="#tabs-7">Індивідуальні<br/>фотосесії</a></li>
+            <li><%= link_to '#tabs-1' do %>Love <br/>story<% end %></li>
+            <li><%= link_to '#tabs-2' do %>Весілля<% end %></li>
+            <li><%= link_to '#tabs-3' do %>Випускні<% end %></li>
+            <li><%= link_to '#tabs-4' do %>Дитяча<br/>фотозйомка<% end %></li>
+            <li><%= link_to '#tabs-5' do %>Дні<br/> народження<% end %></li>
+            <li><%= link_to '#tabs-6' do %>Сімейна<br/>фотозйомка<% end %></li>
+            <li><%= link_to '#tabs-7' do %>Індивідуальні<br/>фотосесії<% end %></li>
           </ul>
           <div id="tabs-1">
             <div id="ca-container-1" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('love-story/love-story-1.jpg', alt: 'love-story') %>
               </div>
@@ -102,12 +100,10 @@
               <div class="ca-item">
                 <%= image_tag('love-story/love-story-10.jpg', alt: 'love-story') %>
               </div>
-
             </div>
           </div>
           <div id="tabs-2">
             <div id="ca-container-2" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('wedding/wedding-1.jpg', alt: 'wedding') %>
               </div>
@@ -210,12 +206,10 @@
               <div class="ca-item">
                 <%= image_tag('wedding/wedding-34.jpg', alt: 'wedding') %>
               </div>
-
             </div>
           </div>
           <div id="tabs-3">
             <div id="ca-container-3" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('outlet/outlet-1.JPG', alt: 'outlet') %>
               </div>
@@ -231,12 +225,10 @@
               <div class="ca-item">
                 <%= image_tag('outlet/outlet-5.JPG', alt: 'outlet') %>
               </div>
-
             </div>
           </div>
           <div id="tabs-4">
             <div id="ca-container-4" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('kids/kids-1.jpg', alt: 'kids') %>
               </div>
@@ -261,12 +253,10 @@
               <div class="ca-item">
                 <%= image_tag('kids/kids-8.jpg', alt: 'kids') %>
               </div>
-
             </div>
           </div>
           <div id="tabs-5">
             <div id="ca-container-5" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('birthdays/birthday-1.JPG', alt: 'birthday') %>
               </div>
@@ -282,12 +272,10 @@
               <div class="ca-item">
                 <%= image_tag('birthdays/birthday-5.JPG', alt: 'birthday') %>
               </div>
-
             </div>
           </div>
           <div id="tabs-6">
             <div id="ca-container-6" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('family/family-1.jpg', alt: 'family') %>
               </div>
@@ -309,12 +297,10 @@
               <div class="ca-item">
                 <%= image_tag('family/family-7.jpg', alt: 'family') %>
               </div>
-
             </div>
           </div>
           <div id="tabs-7">
             <div id="ca-container-7" class="ca-container">
-
               <div class="ca-item">
                 <%= image_tag('individuals/individual-1.jpg', alt: 'individual') %>
               </div>
@@ -345,7 +331,6 @@
               <div class="ca-item">
                 <%= image_tag('individuals/individual-10.JPG', alt: 'individual') %>
               </div>
-
             </div>
           </div>
         </div>
@@ -384,11 +369,10 @@
               </ul>
             </li>
           </ul>
-          <div class="more-information">
-            <p>Кожна додаткова година фотозйомки коштує 150 грн.</p>
-
-            <p>Кожна додаткова година фотозйомки бенкету коштує 250 грн.</p>
-          </div>
+          <ul class="more-information">
+            <li>Кожна додаткова година фотозйомки коштує 150 грн.</li>
+            <li>Кожна додаткова година фотозйомки бенкету коштує 250 грн.</li>
+          </ul>
         </div>
         <div class="conditions">
           <ul>
@@ -396,116 +380,91 @@
             <li>Мінімальний термін замовлення - за тиждень</li>
             <li>Всі фотографії віддаються фотографом не раніше ніж через місяць</li>
             <li>При фотосесії не повинно бути інших “фотографів” (людей з фото-апаратами, планшетами, тощо),
-              відволікаючих вашу увагу.
-            </li>
+               відволікаючих вашу увагу.</li>
             <li>Повна оплата проходить до початку бенкету</li>
             <li>План фотозйомки ви узгоджуєте з самим фотографом</li>
             <li>Всі отримані фотографії можуть бути використані фотографом у своему портфоліо в інтернеті. При
-              замовленні конфіденційної фотозйомки її вартість збільшується на 50% (Про такий вид зйомки необхідно
-              попередити до фотосесії!)
+               замовленні конфіденційної фотозйомки її вартість збільшується на 50% (Про такий вид зйомки необхідно
+               попередити до фотосесії!)
             </li>
           </ul>
         </div>
       </li>
       <li id="page2" class="page2 no-display">
         <!-- Друга сторінка -->
-        <div class="indent">
-        </div>
+        <div class="indent"></div>
         <h2 class="invitations upper">запрошення</h2>
         <ul class="invitation">
-          <li><%= image_tag('evro.fw.png', alt: 'evro') %><p><span class="upper">євро</span> 99х210мм</p></li>
-          <li><%= image_tag('mini.fw.png', alt: 'mini') %><p><span class="upper">міні</span> 99х99мм</p></li>
-          <li><%= image_tag('standart.fw.png', alt: 'standart') %><p><span class="upper">стандарт</span> 105х148мм (A5)</p></li>
-          <li><%= image_tag('card-single-double.png', alt: 'card-single-double') %><p><span class="upper">подвійне євро</span> 99х210 (A5)</p></li>
-          <li><%= image_tag('double-mini.fw.png', alt: 'double-mini') %><p><span class="upper">подвійне міні</span> 99х99мм (A5)</p></li>
+          <li><%= image_tag('evro.fw.png', alt: 'evro') %><span>євро</span> <br/>99х210мм</li>
+          <li><%= image_tag('mini.fw.png', alt: 'mini') %><span>міні</span> <br/>99х99мм</li>
+          <li><%= image_tag('standart.fw.png', alt: 'standart') %><span>стандарт</span> <br/>105х148мм (A5)</li>
+          <li><%= image_tag('card-single-double.png', alt: 'card-single-double') %><span>подвійне євро</span> <br/>99х210мм</li>
+          <li><%= image_tag('double-mini.fw.png', alt: 'double-mini') %><span>подвійне міні</span> <br/>99х99мм</li>
         </ul>
         <ul class="big-list-photo">
           <li>
-            <%= link_to image_path('couple-bikes.JPG'), data: {lightbox: :ZAP1_FULSIZE} do %>
-                <%= image_tag('color-list-photo-bikes.png', effect: :grayscale, class: 'photo_bike') %>
+            <%= link_to image_path('couple-bikes.JPG', alt: 'bikes'), data: {lightbox: :ZAP1_FULSIZE} do %>
+                <%= image_tag('color-list-photo-bikes.png', alt: 'photo bike', effect: :grayscale, class: 'photo_bike') %>
             <% end %>
           </li>
           <li>
-            <%= link_to image_path('couple-flowers.JPG'), data: {lightbox: :ZAP2_FULSIZE} do %>
-                <%= image_tag('color-list-photo-single.png', effect: :grayscale, class: 'photo_single') %>
+            <%= link_to image_path('couple-flowers.JPG', alt: 'flowers'), data: {lightbox: :ZAP2_FULSIZE} do %>
+                <%= image_tag('color-list-photo-single.png', alt: 'photo_single', effect: :grayscale, class: 'photo_single') %>
             <% end %>
           </li>
           <li>
-            <%= link_to image_path('couple-butterfly.JPG'), data: {lightbox: :ZAP3_FULSIZE} do %>
-                <%= image_tag('color-list-photo-butterfly.png', effect: :grayscale, class: 'photo_butterfly') %>
+            <%= link_to image_path('couple-butterfly.JPG', alt: 'butterfly'), data: {lightbox: :ZAP3_FULSIZE} do %>
+                <%= image_tag('color-list-photo-butterfly.png', alt: 'photo butterfly', effect: :grayscale, class: 'photo_butterfly') %>
             <% end %>
           </li>
           <li>
-            <%= link_to image_path('couple-passport.JPG'), data: {lightbox: :ZAP4_FULSIZE} do %>
-                <%= image_tag('color-list-photo-passport.png', effect: :grayscale, class: 'photo_passport') %>
+            <%= link_to image_path('couple-passport.JPG', alt: 'passport'), data: {lightbox: :ZAP4_FULSIZE} do %>
+                <%= image_tag('color-list-photo-passport.png', alt: 'photo passport', effect: :grayscale, class: 'photo_passport') %>
             <% end %>
           </li>
           <li>
-            <%= link_to image_path('couple-multi-cards.JPG'), data: {lightbox: :ZAP5_FULSIZE} do %>
-                <%= image_tag('color-list-photo-cards.png', effect: :grayscale, class: 'photo_cards') %>
+            <%= link_to image_path('couple-multi-cards.JPG', alt: 'cards'), data: {lightbox: :ZAP5_FULSIZE} do %>
+                <%= image_tag('color-list-photo-cards.png', alt: 'photo cards', effect: :grayscale, class: 'photo_cards') %>
             <% end %>
           </li>
         </ul>
-        <div class="invitation-thems">
-          <p>Також є можливість виготовити ексклюзивні запрошення будь якого розміру та форми</p>
-
-          <p>Ціна залежить від кількості запрошень і матеріалу</p>
-        </div>
-
-        <ul class="message">
-          <li class="big-message">
-            <a href="#" onclick="linkTo('contact-information')">
-              <p>Запропонуйте мені щось цікаве</p>
-
-              <p class="upper">передзвоніть мені</p>
-            </a>
-          </li>
-          <li class="small-message">
-            <a href="#" onclick="linkTo('question')"><span></span></a>
-          </li>
+        <ul class="invitation-thems">
+          <li>Також є можливість виготовити ексклюзивні запрошення будь якого розміру та форми</li>
+          <li>Ціна залежить від кількості запрошень і матеріалу</li>
         </ul>
+
+        <%= render 'big_message' %>
         <h2 class="packages upper">подарунки для гостей</h2>
 
         <div class="two-big-photo">
-          <%= image_tag('wedding-photo-first.png', alt: '') %>
-          <%= image_tag('wedding-photo-second.png', alt: '') %>
+          <%= image_tag('wedding-photo-first.png', alt: 'first wedding photo') %>
+          <%= image_tag('wedding-photo-second.png', alt: 'second wedding photo') %>
         </div>
         <p class="commentary">Дуже вдалий спосіб висловити подяку гостям за їх присутності на Вашому весіллі</p>
 
         <div class="table">
           <table>
             <tr>
-              <td class="name"><p>* Пакет для печива для гостей, білий/коричневий крафт-папір 150*140*70мм</p></td>
-              <td class="quantity"><p>100шт</p><span>в упаковці</span></td>
-              <td class="cost"><p>9,84 грн/шт</p></td>
+              <td class="name">* Пакет для печива для гостей, білий/коричневий крафт-папір 150*140*70мм</td>
+              <td class="quantity">100шт<span>в упаковці</span></td>
+              <td class="cost">9,84 грн/шт</td>
             </tr>
             <tr>
-              <td class="name"><p>* Ларець для печива, Картон макулатурний, 200 170*85*105</p></td>
-              <td class="quantity"><p>100шт <span>в упаковці</span></p></td>
-              <td class="cost"><p>12,80 грн/шт</p></td>
+              <td class="name">* Ларець для печива, Картон макулатурний, 200 170*85*105</td>
+              <td class="quantity">100шт <span>в упаковці</span></td>
+              <td class="cost">12,80 грн/шт</td>
             </tr>
             <tr>
-              <td class="name"><p>* Бомбон’єрка для цукерок, Дизайнерський картон, 250 45*50*45</p></td>
-              <td class="quantity"><p>100шт <span>в упаковці</span></p></td>
-              <td class="cost"><p>15,37 грн/шт</p></td>
+              <td class="name">* Бомбон’єрка для цукерок, Дизайнерський картон, 250 45*50*45</td>
+              <td class="quantity">100шт <span>в упаковці</span></td>
+              <td class="cost">15,37 грн/шт</td>
             </tr>
           </table>
           <p class="commentary2">(При замовленні більш ніж 100 одиниць, ціна зменшується)</p>
         </div>
-        <ul class="message">
-          <li class="big-message small-text">
-            <a href="#" onclick="linkTo('contact-information')">
-              <p>Хочу замовити</p>
-            </a>
-          </li>
-          <li class="small-message">
-            <a href="#" onclick="linkTo('question')"><span></span></a>
-          </li>
-        </ul>
-
+        <%= render 'small_message' %>
 
         <h2 class="decoration upper">фоторамки від art well</h2>
-
         <div class="photo-frame">
           <%= image_tag('photo-family.png', alt: 'photo family') %>
           <%= image_tag('photo-love.png', alt: 'photo love') %>
@@ -516,24 +475,13 @@
         <div class="commentary3">
           <p>Фоторамки з дерева, формат фотографій 10х15</p>
         </div>
-        <span class="small-message" onclick="linkTo('question')"></span>
-        <ul class="message">
-          <li class="big-message small-text">
-            <a href="#" onclick="linkTo('contact-information')">
-              <p>Хочу замовити</p>
-            </a>
-          </li>
-          <li class="small-message">
-            <a href="#" onclick="linkTo('question')"><span></span></a>
-          </li>
-        </ul>
+        <%= render 'small_message' %>
       </li>
       <!-- Третя сторінка -->
       <li id="page3" class="page3 no-display">
         <ul class="book-list">
           <li>
             <h2 class="polygraphy upper">поліграфічна фотокнига</h2>
-
             <div class="photo-gallery-wrapp">
               <%= image_tag('photobook-main-inside.jpg', alt: 'photobook main inside') %>
               <ul>
@@ -561,20 +509,10 @@
             </div>
           </li>
           <li>
-            <ul class="message call-me">
-              <li class="big-message small-text call-text">
-                <a href="#" onclick="linkTo('contact-information')">
-                  <p>Передзвоніть мені</p>
-                </a>
-              </li>
-              <li class="small-message">
-                <a href="#" onclick="linkTo('question')"><span></span></a>
-              </li>
-            </ul>
+            <%= render 'call_message' %>
           </li>
           <li>
             <h2 class="classic upper">класична фотокнига</h2>
-
             <div class="photo-gallery-wrapp">
               <%= image_tag('photobook-classic-inside.jpg', alt: 'photobook classic inside') %>
               <ul>
@@ -602,16 +540,7 @@
             </div>
           </li>
           <li>
-            <ul class="message call-me">
-              <li class="big-message small-text call-text">
-                <a href="#" onclick="linkTo('contact-information')">
-                  <p>Передзвоніть мені</p>
-                </a>
-              </li>
-              <li class="small-message">
-                <a href="#" onclick="linkTo('question')"><span></span></a>
-              </li>
-            </ul>
+            <%= render 'call_message' %>
           </li>
           <li>
             <h2 class="LayFlat">LayFlat <span class="upper">фотокнига</span></h2>
@@ -643,16 +572,7 @@
             </div>
           </li>
           <li>
-            <ul class="message call-me">
-              <li class="big-message small-text call-text">
-                <a href="#" onclick="linkTo('contact-information')">
-                  <p>Передзвоніть мені</p>
-                </a>
-              </li>
-              <li class="small-message">
-                <a href="#" onclick="linkTo('question')"><span></span></a>
-              </li>
-            </ul>
+            <%= render 'call_message' %>
           </li>
         </ul>
       </li>
@@ -664,9 +584,10 @@
         <div class="input-phone"><%= text_field_tag :phone_number, nil, placeholder: '(0XX) XXX-XX-XX', required: true %></div>
         <div class="action"><%= submit_tag 'передзвоніть мені', class: 'upper' %></div>
       <% end %>
-      <p>фотограф Євгеній Ткаченко</p>
-
-      <p>телефон: 063 678 13 59</p>
+      <ul class="feedback-info">
+        <li>фотограф Євгеній Ткаченко</li>
+        <li>телефон: 063 678 13 59</li>
+      </ul>
       <ul class="social">
         <li>
           <%= link_to image_tag('facebook.fw.png', alt: 'facebook logo'), 'https://www.facebook.com/groups/UjinPhoto/', target: '_blank' %>
@@ -688,7 +609,7 @@
 
   </section>
   <footer>
-    <p>Сделано командой <a href="#">Projectico</a></p>
+    <p>Сделано командой <%= link_to 'Projectico', '#' %></p>
   </footer>
 </div>
 
