@@ -126,6 +126,15 @@ a:hover {
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: 'Bedrock-Cyr';
+  src: url('Bedrock-Cyr.eot');
+  src: url('Bedrock-Cyr.eot?#iefix') format('embedded-opentype'),
+  url('Bedrock-Cyr.woff') format('woff'),
+  url('Bedrock-Cyr.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
 .upper {
   text-transform: uppercase;
 }
@@ -201,7 +210,7 @@ ul.nav-page li {
 }
 
 ul.nav-page li a {
-  font-family: 'Bedrock-Cyr', 'MyriadProRegular';
+  font-family: 'Bedrock-Cyr';
   font-size: 42px;
   color: #A8A8A8;
   text-transform: uppercase;
