@@ -22,10 +22,13 @@ test:
 
 production:
   adapter: postgresql
-  encoding: unicode
-  pool: 5
   database: <%=ENV['OPENSHIFT_APP_NAME']%>
-  host: <%=ENV['$OPENSHIFT_POSTGRESQL_DB_HOST']%>
-  port: <%=ENV['$OPENSHIFT_POSTGRESQL_DB_PORT']%>
   username: <%=ENV['OPENSHIFT_POSTGRESQL_DB_USERNAME']%>
   password: <%=ENV['OPENSHIFT_POSTGRESQL_DB_PASSWORD']%>
+  host:     <%=ENV['OPENSHIFT_POSTGRESQL_DB_HOST']%>
+  port:     <%=ENV['OPENSHIFT_POSTGRESQL_DB_PORT']%>
+  min_messages: ERROR
+  reconnect: false
+  pool: 5
+  timeout: 5000
+  encoding: utf8
