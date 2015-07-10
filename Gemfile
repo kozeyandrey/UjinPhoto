@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'figaro'
 gem 'cloudinary'
+gem 'turbo-sprockets-rails3'
 
 
 gem 'sdoc', '~> 0.4.0', group: :doc
