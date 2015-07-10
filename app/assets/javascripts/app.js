@@ -50,15 +50,6 @@
         $(tabId).find('button.slick-next').click();
     });
     $('#textarea').val('');
-   // $('#page2 .big-list-photo img')
-        //                 .on('mouseover', function(e) {
-   //         var src = $(e.target).attr('src').slice(7);
-   //         $(e.target).attr('src', 'images/color-' + src);
-   //     })
-        //                 .on('mouseleave', function(e) {
-   //         var src = $(e.target).attr('src').slice(13);
-   //         $(e.target).attr('src', 'images/' + src);
-   //     });
 
 
     $('.content ul.book-list ul img').on('click', function (e) {
