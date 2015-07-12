@@ -11,7 +11,9 @@ gem 'figaro'
 gem 'cloudinary'
 
 
-gem 'sdoc', '~> 0.4.0', group: :doc
+group :doc do
+  gem 'sdoc', '~> 0.4.0'
+end
 
 group :development, :test do
   gem 'byebug'
