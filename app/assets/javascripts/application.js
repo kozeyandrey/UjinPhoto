@@ -12,6 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-2.1.4.min
+//= require jquery-ui-1.9.2.custom.min
+//= require lightbox.min
+//= require slick.min
 //= require turbolinks
 //= require_tree .
 
