@@ -33,5 +33,6 @@ module PhotoUjin
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
+    config.assets.precompile += ['jquery-ui-1.9.2.custom.css', 'lightbox.css', 'slick.css']
   end
 end
