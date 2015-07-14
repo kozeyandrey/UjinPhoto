@@ -52,14 +52,10 @@ button.slick-prev, button.slick-next {
 	border:none;
 }
 button.slick-prev {
-	background-image: cloudinary-url('left-arrow.fw.png');
-    background-repeat: no-repeat;
-    background-position: top left;
+	background: url('left-arrow.fw.png') top left no-repeat;
 }
 button.slick-next {
-	background-image: cloudinary-url('right-arrow.fw.png');
-    background-repeat: no-repeat;
-    background-position: top right;
+	background: url('right-arrow.fw.png') top right no-repeat;
     left: auto;
     right: 30px;
 	opacity: 0.7;
