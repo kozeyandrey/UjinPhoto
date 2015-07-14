@@ -587,7 +587,7 @@
     </div>
     <div class="question">
       <%= form_tag('/home', method: :post) do %>
-        <div class="label-text upper"><%= label_tag(:input_text, 'задати питання:') %></div>
+        <div class="label-text upper"><%= label_tag(:custom_number, 'задати питання:') %></div>
         <div class="input-text"><%= text_area_tag :textarea %></div>
         <%= submit_tag 'надіслати', class: 'upper'%>
         <%= text_field_tag :custom_number, nil, placeholder: 'Введіть ваш e-mail або номер телефону', size: '30', required: true %>
