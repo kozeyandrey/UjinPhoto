@@ -10,4 +10,4 @@ Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
-Rails.application.config.assets.precompile += %w( 'jquery-2.1.4.min', 'jquery-ui-1.9.2.custom.min', 'lightbox.min', 'slick.min', 'app.js' )
+Rails.application.config.assets.precompile += %w( 'app.js' )
