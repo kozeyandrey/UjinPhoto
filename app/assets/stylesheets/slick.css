@@ -52,12 +52,12 @@ button.slick-prev, button.slick-next {
 	border:none;
 }
 button.slick-prev {
-	background: image-url('left-arrow.fw.png');
+	background-image: url('<%= asset_path("left-arrow.fw.png") %>');
     background-repeat: no-repeat;
     background-position: top left;
 }
 button.slick-next {
-	background-image: image-url('right-arrow.fw.png');
+	background-image: url('<%= asset_path("right-arrow.fw.png") %>');
     background-repeat: no-repeat;
     background-position: top right;
     left: auto;
