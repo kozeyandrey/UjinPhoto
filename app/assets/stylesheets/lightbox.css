@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: image-url('close.png') image-url('loading.gif');
+  content: url('close.png') url('loading.gif');
   display: none;
 }
 
@@ -79,7 +79,7 @@ body:after {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: image-url('loading.gif') no-repeat;
+  background: url('loading.gif') no-repeat;
 }
 
 .lb-nav {
@@ -145,7 +145,7 @@ body:after {
   float: right;
   width: 30px;
   height: 30px;
-  background: image-url('close.png') top right no-repeat;
+  background: url('close.png') top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

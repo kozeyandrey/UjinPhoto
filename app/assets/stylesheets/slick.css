@@ -52,10 +52,10 @@ button.slick-prev, button.slick-next {
 	border:none;
 }
 button.slick-prev {
-	background: image-url('left-arrow.fw.png') no-repeat top left;
+	background: url('left-arrow.fw.png') no-repeat top left;
 }
 button.slick-next {
-	background: image-url('right-arrow.fw.png') no-repeat top right;
+	background: url('right-arrow.fw.png') no-repeat top right;
     left: auto;
     right: 30px;
 	opacity: 0.7;
