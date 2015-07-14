@@ -79,7 +79,7 @@ body:after {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background-image:url('loading.gif');
+  background-image: image-url('loading.gif');
   background-repeat: no-repeat;
 }
 
@@ -146,7 +146,7 @@ body:after {
   float: right;
   width: 30px;
   height: 30px;
-  background-image: url('close.png');
+  background-image: image-url('close.png');
   background-repeat: no-repeat;
   background-position: top right;
   text-align: right;
