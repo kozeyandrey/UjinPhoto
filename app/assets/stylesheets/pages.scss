@@ -383,7 +383,6 @@ a:hover                        { text-decoration:none; }
           li {
             display: inline-block;
             padding: 0 14px;
-            border-bottom: 5px solid #A8A8A8;
             a {
               font: {
                 family: 'Bedrock-Cyr';
@@ -401,7 +400,6 @@ a:hover                        { text-decoration:none; }
             width: 238px;
             &:last-child {
               width: 100px;
-              padding-top: 46px;
             }
           }
         }
