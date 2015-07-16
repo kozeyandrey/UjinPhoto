@@ -1,0 +1,1080 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------Responsive-----------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+
+/* ------------------------------------------ */
+/* -----------responsive by (460px)---------- */
+/* ------------------------------------------ */
+@media only screen and (min-width: 460px) {
+.wrapper{
+	width:460px;
+	min-width:0px;
+}
+header{
+	width:460px;
+}
+header .nav {
+	margin-left:0px;
+}
+header .nav li {
+	margin-right:-4px;
+	width:140px;
+	height:210px;
+}
+.content{
+	width:460px;
+}
+.content .subject-matter{
+	width:460px;
+}
+.ca-container{
+	width:460px;
+}
+.ui-tabs .ui-tabs-nav li a {
+	padding: 11px 0;
+	font-size: 13px;
+}
+div.subject-matter p{
+	width:460px;
+	font-size:19px;
+}
+ul.price-list li {
+	margin: 0 17px 5px 16px;
+}
+.price h3 {
+	font-size:23px;
+}
+.more-information p{
+	font-size:18px;
+}
+ul.description {
+	margin: 10px 25px 10px 40px;
+}
+ul.description li {
+	font-size:20px;
+}
+ul.price-list li h4 {
+	font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul.description li {
+    font-size: 19px;
+}
+
+.table td {
+    padding-bottom: 60px;
+}
+.table td {
+    padding-bottom: 22px;
+}
+.quantity {
+    color: #fff;
+    font-size: 40px;
+    line-height: 43%;
+    text-align: center;
+    width: 120px;
+}
+.quantity {
+    font-size: 30px;
+    line-height: 43%;
+    padding-right: 60px;
+    width: 171px;
+}
+ul.social {
+    margin-top: 25px;
+    overflow: hidden;
+}
+ul.social {
+    margin-left: 105px;
+}
+.contact-information {
+    text-align: center;
+}
+#nav-page3 li {
+    text-align: center;
+}
+#nav-page3 li {
+    width: 188px;
+}
+#nav-page3 li {
+    width: 117px;
+}
+ul.nav-page li {
+    display: inline-block;
+    padding-right: 8px;
+}
+ul.nav-page li {
+    padding-right: 0;
+}
+.nav-page-list li {
+}
+.nav-page {
+    text-align: center;
+}
+
+#nav-page3 li {
+    text-align: center;
+}
+#nav-page3 li {
+    width: 188px;
+}
+#nav-page3 li {
+    width: 117px;
+}
+ul.nav-page li {
+    display: inline-block;
+    padding-right: 8px;
+}
+ul.nav-page li {
+    padding-right: 0;
+}
+.nav-page-list li {
+}
+.nav-page {
+    text-align: center;
+}
+
+.book-list li {
+    overflow: hidden;
+}
+.message li {
+    display: inline-block;
+    margin: 0 14px;
+}
+.message li {
+    height: 104px;
+}
+
+.message {
+    text-align: center;
+}
+
+.contact-information input[type="button"] {
+    background-color: #ffa800;
+    border: 3px solid #585858;
+    border-radius: 5px;
+    color: #585858;
+    cursor: pointer;
+    font-size: 26px;
+    height: 50px;
+    margin-bottom: 162px;
+    width: 299px;
+}
+.contact-information input[type="button"] {
+    width: 325px;
+}
+.contact-information div {
+    border: 3px dashed #000;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    width: 585px;
+}
+.photo-gallery-wrapp {
+  float: none;
+}
+
+.call-me {
+	width:0px;
+}
+.call-text p {
+    font-size: 22px;
+    top: 34px;
+}
+.contact-information div {
+    width: 410px;
+}
+.contact-information div {
+    width: 430px;
+}
+.ui-tabs .ui-tabs-nav li a {
+    font-family: "Arial Unicode MS";
+    font-size: 16px;
+    text-align: center;
+}
+.ui-tabs .ui-tabs-nav li a {
+    font-size: 13px;
+    padding: 11px 24px;
+}
+div.subject-matter p {
+    color: #fff;
+    font-size: 19px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.subject-matter p {
+    font-size: 17px;
+    width: 460px;
+}
+.price h3 {
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.price h3 {
+    font-size: 23px;
+}
+.more-information p {
+    font-size: 18px;
+}
+ul.price-list li {
+    margin: 0 10px 5px;
+}
+.information ul li{
+	margin-right:103px;
+}
+.conditions{
+	padding: 45px 18px 34px 23px;
+} 
+.conditions li {
+	background: url(../images/marker.fw.png), url(../images/grey-marker.fw.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 2px, 100% 3px;
+    font-size: 20px;
+}
+.contact-information form p {
+    font-size: 23px;
+}
+.contact-information div{
+	width:430px;
+}
+.contact-information input[type="text"]{
+	width:403px;
+}
+.contact-information input[type="button"]{
+	width:325px;
+}
+.photo-love-ujin{
+	width:146px;
+	height:auto;
+}
+ul.social {
+	margin-left:0px;
+}
+ul.social li {
+    margin-right: 10px;
+}
+.question {
+    height: 263px;
+    margin-bottom: 40px;
+    padding: 23px 14px 21px 12px;
+    text-align: center;
+}
+.question p{
+	font-size:32px;
+}
+.question textarea {
+	height: 157px;
+    width: 389px;
+}
+.question input[type="button"]{
+	font-size: 19px;
+    height: 48px;
+	width:128px;
+}
+.question input[type="text"]{
+	font-size: 15px;
+    height: 37px;
+    width: 263px;
+	margin-right: 11px;
+}
+.question form {
+    height: 300px;
+}
+.message p{
+	font-size: 15px;
+    left: 135px;
+}
+.message li {
+	height:104px;
+}
+.message li a {
+    overflow: hidden;
+    display: block;
+    text-indent: -400px;
+    background: url(../images/background-link.fw.png) no-repeat;
+}
+
+li.big-message a {
+    background-position: 0 0;
+    background-size: 417px auto;
+    height: 109px;
+    width: 294px;
+}
+
+li.small-message a {
+    background-position: -303px 0;
+    background-size: 400px auto;
+    height: 110px;
+    width: 105px;
+}
+	
+.nav li.photo1,.nav li.photo2, .nav li.photo3 {
+	background-size:140px auto;
+}
+
+.nav li.photo1:hover, .nav li.photo2:hover,.nav li.photo3:hover {
+	background-size:140px auto;
+}
+
+.nav li.photo1-active, .nav li.photo2-active, .nav li.photo3-active {
+	background-size:140px auto;
+}
+.information ul {
+	padding-left: 13px;
+}
+.information ul li{
+	font-size: 14px;
+    margin-right:0;
+    width: 148px;
+}
+.invitation li {
+	width:17%;
+}
+.invitation li p {
+	font-size:15px;
+}
+.invitation li img{
+	width:100%;
+}
+.invitation-thems{
+	font-size:19px;
+}
+.big-list-photo li {
+	width:32%;
+	height:auto;
+}
+.big-list-photo li:nth-child(4){
+	width:52%;
+}
+.big-list-photo li:last-child{
+	width:45.5%;
+}
+.big-list-photo li img{
+	width:100%;
+}
+.two-big-photo img {
+	width:50%;
+}
+
+.table table {
+    margin-left: 20px;
+}
+.table td {
+    padding-bottom: 22px;
+}
+.name {
+    width: 173px;
+    font-size: 15px;
+    padding-right: 15px;
+}
+.quantity {
+    font-size: 35px;
+    width: 120px;
+    padding-right: 20px;
+}
+.cost {
+    font-size: 28px;
+}
+.contact-information form p {
+    font-size: 23px;
+}
+.contact-information div {
+   width: 410px;
+}
+.contact-information input[type="text"] {
+	width: 378px;
+}  
+.contact-information input[type="button"] {
+	width: 299px;
+} 
+
+.page2 h2 {
+    font-size: 26px;
+}
+.page3 h2 {
+    font-size: 26px;
+}
+.call-me {
+    height: 231px;
+    margin: 0 auto 0px;
+	width: 459px;
+}
+.cost {
+    font-size: 23px;
+}
+.commentary2 {
+    bottom: 22px;
+    font-size: 19px;
+}
+
+.nav-page-list{
+	margin-bottom: 15px;
+}
+#nav-page3 {
+    width: 460px;
+}
+ul.nav-page li {
+	padding-right: 0px;
+}
+ul.nav-page li a{
+	font-size: 19px;
+}
+#nav-page1 li{
+	padding-right:25px;
+}
+#nav-page2 li{
+	padding-right:15px;
+}
+#nav-page3 li{
+	width: 116px;
+}
+.commentary3{
+	font-size:18px;
+}
+.photo-frame img:nth-child(1){
+	width:49%;
+}
+.photo-frame img:nth-child(2){
+	width:49.5%;
+}
+.photo-frame img:nth-child(3){
+	width:33%;
+}
+.photo-frame img:nth-child(4){
+	width:33%;
+}
+.photo-frame img:nth-child(5){
+	width:32%;
+}
+.ui-tabs .ui-tabs-nav li a {
+    padding: 11px 24px;
+}
+}
+/* ------------------------------------------ */
+/* -----------responsive by (768px)---------- */
+/* ------------------------------------------ */
+
+@media only screen and (min-width: 768px) {
+.wrapper{
+	width:768px;
+	min-width:0px;
+}
+header{
+	width:768px;
+}
+header .nav {
+	margin-left:30px;
+}
+.content{
+	width:768px;
+}
+.content .subject-matter{
+	width:768px;
+}
+.ca-container{
+	width:768px;
+}
+.ui-tabs .ui-tabs-nav li a {
+	padding: 10px 14.5px;
+}
+.information ul li{
+	margin-right:103px;
+}
+ul.nav-page li{
+	padding-right: 8px;
+}
+ul.nav-page li a {
+	font-size:30px;
+}
+header .nav li {
+    height: 300px;
+    margin-right: 32px;
+    width: 200px;
+}
+.photo-gallery-wrapp {
+  float: left;
+}
+.nav li.photo1,.nav li.photo2, .nav li.photo3 {
+	background-size:cover;
+}
+
+.nav li.photo1:hover, .nav li.photo2:hover,.nav li.photo3:hover {
+	background-size:cover;
+}
+
+.nav li.photo1-active, .nav li.photo2-active, .nav li.photo3-active {
+	background-size:cover;
+}
+div.subject-matter p {
+    width: 768px;
+}
+ul.price-list li {
+    margin: 0 40px 36px;
+}
+.question form {
+    height: 300px;
+}	
+.question textarea {
+    height: 157px;
+    width: 609px;
+}
+.question input[type="text"]{
+margin-right: 55px;
+}
+.question input[type="button"]{
+	font-size: 26px;
+    width: 220px;
+}
+.commentary2 {
+    bottom: 24px;
+    font-size: 16px;
+    height: 51px;
+}
+.information ul {
+	padding-left: 33px;
+}
+.information ul li{
+	margin-right: 13px;
+	width: 231px;
+	font-size: 16px;
+}
+ul.price-list li h4 {
+    font-size: 26px; 
+}
+ul.description {
+	margin: 24px 25px 24px 40px;
+}
+
+
+.call-me {
+	width: 666px;
+}
+
+.call-text p {
+    font-size: 40px;
+    top: 41px;
+}
+.more-information p {
+	font-size: 27px;
+}
+ul.description li {
+    font-size: 25px;
+}
+ul.social li {
+	margin-right: 80px;
+}
+.invitation li {
+	width:18%;
+}
+.conditions {
+    padding: 45px 58px 34px 63px;
+}
+.conditions li {
+    font-size: 25px;
+}
+.invitation li p {
+	font-size:21px;
+}
+.invitation li img{
+	width:100%;
+}
+
+.message p {
+	font-size: 23px; 
+	left: 200px; 
+}
+.message li a {
+    background: url(../images/background-link.fw.png) no-repeat;
+}
+li.big-message a {
+    width: 450px;
+    height: 159px;
+}
+
+li.small-message a {
+    background-position: -480px 0;
+    height: 159px;
+    width: 156px;
+}
+.big-list-photo li {
+	width:32%;
+	height:auto;
+}
+.big-list-photo li:nth-child(4){
+	width:53%;
+}
+.big-list-photo li:last-child{
+	width:45.5%;
+}
+.big-list-photo li img{
+	width:100%;
+}
+.two-big-photo img {
+	width:50%;
+}
+#nav-page3 {
+    width: 768px;
+}
+ul.nav-page li a{
+	font-size:30px;
+}
+#nav-page3 li{
+	width: 188px;
+}
+.photo-frame img:nth-child(1){
+	width:50%;
+}
+.photo-frame img:nth-child(2){
+	width:49.5%;
+}
+.photo-frame img:nth-child(3){
+	width:33%;
+}
+.photo-frame img:nth-child(4){
+	width:33%;
+}
+.photo-frame img:nth-child(5){
+	width:32%;
+} .table table {
+    margin-left: 41px;
+}
+.table td {
+    padding-bottom: 60px;
+}
+.name {
+    width: 323px;
+    font-size: 22px;
+    padding-right: 25px;
+}
+.quantity {
+    font-size: 40px;
+    width: 120px;
+    padding-right: 160px;
+}
+.cost {
+    font-size: 28px;
+}
+.invitation li p {
+    font-size: 21px;
+}
+ul.social {
+    margin-left:105px;
+}
+.message li {
+    height: 160px;
+}
+.contact-information form p {
+    font-size: 32px;
+}
+.contact-information div {
+   width: 585px;
+}
+.contact-information input[type="text"] {
+	width: 558px;
+}  
+.contact-information input[type="button"] {
+	width: 449px;
+}
+} 
+/* ------------------------------------------ */
+/* -----------responsive by (1024px)---------- */
+/* ------------------------------------------ */
+@media only screen and (min-width: 1024px) {
+.wrapper{
+	width:1024px;
+}
+header {
+    width: 1024px;
+}
+.content {
+    width: 1024px;
+}
+.content .subject-matter {
+    width: 1024px;
+}	
+div.subject-matter p {
+    width: 768px;
+}
+.ca-container {
+    width: 1024px;
+}
+.ui-tabs .ui-tabs-nav li a {
+    font-size: 16px;
+    padding: 10px 33px;
+}
+ul.nav-page li a {
+	font-size:42px;
+}
+.nav {
+    overflow: hidden;
+    margin-right: -10px;
+    margin-bottom: 40px;
+}
+header .nav li {
+    height: 467px;
+    margin-right: 5px;
+    width: 311px;
+}
+#nav-page3 {
+    width: 1024px;
+}
+#nav-page3 li {
+    width: 254px;
+}
+.nav li.photo1,.nav li.photo2, .nav li.photo3 {
+	background-size:311px auto;
+}
+
+.nav li.photo1:hover, .nav li.photo2:hover,.nav li.photo3:hover {
+	background-size:311px auto;
+}
+
+.nav li.photo1-active, .nav li.photo2-active, .nav li.photo3-active {
+	background-size:311px auto;
+}
+.information ul li {
+    width: 278px;
+	font-size:21px;
+}
+.subject-matter{
+	width: 1024px;
+}
+ul.price-list li h4 {
+    font-size: 26px; 
+}
+ul.description {
+	margin: 24px 25px 24px 40px;
+}
+.more-information p {
+	font-size: 27px;
+}
+ul.description li {
+    font-size: 25px;
+}	
+ul.social {
+    margin-left:105px;
+}
+.question {
+    padding: 23px 94px 21px 52px;
+    height: 262px;
+    margin-bottom: 40px;
+}
+.conditions {
+    padding: 45px 58px 34px 63px;
+}
+.conditions li {
+    font-size: 25px;
+}
+.question form {
+    height: 310px;
+}
+.question p {
+    font-size: 56px;
+}
+.question textarea {
+    width: 878px;
+    height: 130px;
+    font-size: 25px;
+}
+.question input[type="button"] {
+    font-size: 26px;
+    height: 58px;
+    margin-bottom: 162px;
+    width: 220px;
+}
+.question input[type="text"] {
+    height: 47px;
+    width: 446px;
+	font-size: 25px;
+    margin-right: -5px;
+}
+.message p {
+	font-size: 23px; 
+	left: 200px; 
+}
+.photo-gallery-wrapp {
+  float: left;
+}
+.commentary2 {
+    bottom: 24px;
+    font-size: 16px;
+    height: 51px;
+}
+.message li a {
+    background: url(../images/background-link.fw.png) no-repeat;
+}
+li.big-message a {
+    width: 450px;
+    height: 159px;
+}
+
+li.small-message a {
+    background-position: -480px 0;
+    height: 159px;
+    width: 156px;
+}
+.table {
+    padding-top: 22px;
+}
+
+.table table {
+    margin-left: 121px;
+}
+.table td {
+    padding-bottom: 60px;
+}
+.name {
+    width: 323px;
+    font-size: 22px;
+    padding-right: 35px;
+}
+.quantity {
+    font-size: 40px;
+    width: 120px;
+    padding-right: 108px;
+}
+
+.quantity span {
+    font-size: 20px;
+    width: 120px;
+}
+
+.cost {
+    font-size: 28px;
+}
+
+.commentary2 {
+    bottom: 60px;
+	font-size:19px;
+}
+.message li {
+    height: 160px;
+}
+.call-me {
+	width: 666px;
+}
+
+.call-text p {
+    font-size: 40px;
+    top: 41px;
+}
+}
+/* ------------------------------------------ */
+/* -----------responsive by (1200px)---------- */
+/* ------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+.wrapper{
+	width:1200px;
+}
+header{
+	width:1200px;
+}
+ul.nav-page li a {
+	font-size:42px;
+}
+header .nav {
+	margin-left:30px;
+}
+header .nav li {
+	height: 467px;
+    margin-right: 65px;
+    width: 311px;
+}
+.nav {
+    overflow: hidden;
+    margin-right: -10px;
+    margin-bottom: 40px;
+}
+
+.nav li {
+    width: 311px;
+    height: 467px;
+}
+#nav-page3 {
+    width: 1200px;
+}
+#nav-page3 li {
+    width: 278px;
+}
+.nav li.photo1,.nav li.photo2, .nav li.photo3 {
+	background-size:200px auto;
+}
+
+.nav li.photo1:hover, .nav li.photo2:hover,.nav li.photo3:hover {
+	background-size:200px auto;
+}
+
+.nav li.photo1-active, .nav li.photo2-active, .nav li.photo3-active {
+	background-size:200px auto;
+}
+.photo-gallery-wrapp {
+  float: left;
+}
+.content{
+	width:1200px;
+}
+.content .subject-matter{
+	width:1200px;
+}
+.ca-container{
+	width:1200px;
+}
+.commentary2 {
+    bottom: 24px;
+    font-size: 19px;
+    height: 51px;
+}
+ul.social {
+    margin-left: 105px;
+}
+
+ul.social li {
+    margin-right: 105px;
+}
+ul.price-list li h4 {
+    font-size: 26px; 
+}
+ul.description {
+	margin: 24px 25px 24px 40px;
+}
+.more-information p {
+	font-size: 27px;
+}
+ul.description li {
+    font-size: 25px;
+}
+
+.information {
+	width:1200px;
+}
+.ui-tabs .ui-tabs-nav li a {
+	padding: 10px 45px;
+}
+.conditions {
+    padding: 45px 58px 34px 63px;
+}
+.conditions li {
+    font-size: 25px;
+}
+.information ul li{
+	width:338px;
+	font-size:24px;
+}
+
+.question {
+    padding: 23px 94px 21px 52px;
+    height: 302px;
+    margin-bottom: 40px;
+}
+
+.question form {
+    height: 350px;
+}
+
+.question p {
+    font-size: 56px;
+}
+
+.question textarea {
+    height: 160px;
+    width: 1028px;
+    font-size: 25px;
+}
+
+.question input[type="button"] {
+    font-size: 26px;
+    height: 58px;
+    margin-bottom: 162px;
+    width: 220px;
+
+}
+
+.question input[type="text"] {
+    height: 47px;
+    width: 446px;
+}
+.message p {
+	font-size: 23px; 
+	left: 200px; 
+}
+.message li a {
+    background: url(../images/background-link.fw.png) no-repeat;
+}
+li.big-message a {
+    width: 450px;
+    height: 159px;
+}
+
+li.small-message a {
+    background-position: -480px 0;
+    height: 159px;
+    width: 156px;
+}
+
+ /* page poligraph  */
+.invitation li {
+	width:19%;
+}
+.invitation li p {
+    font-size: 21px;
+}
+.two-big-photo img {
+	width:50%;
+}
+.table table {
+    margin-left: 81px;
+}
+.table td {
+    padding-bottom: 60px;
+}
+.name {
+	font-size: 22px;
+	padding-right:185px;
+	width: 323px;
+}
+.quantity{
+	padding-right:218px;
+	font-size: 40px;
+}
+.commentary2 {
+    bottom: 52px;
+}	
+.big-list-photo {
+    padding-left: 0;
+}
+.photo-frame  {
+	margin-left: 0px;
+}
+.photo-frame img:nth-child(1){
+	width:50%;
+}
+.photo-frame img:nth-child(2){
+	width:49.5%;
+}
+.photo-frame img:nth-child(3){
+	width:33%;
+}
+.photo-frame img:nth-child(4){
+	width:33%;
+}
+.photo-frame img:nth-child(5){
+	width:32%;
+}
+.message li {
+    height: 160px;
+}
+.call-me {
+	width: 666px;
+}
+
+.call-text p {
+    font-size: 40px;
+    top: 41px;
+}
+}
+
+
+
