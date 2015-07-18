@@ -852,7 +852,7 @@
           #nav-page3 {
             width: 1200px;
             li {
-              width: 278px;
+              width: 245px;
             }
           }
         }
@@ -906,6 +906,9 @@
       width:1200px;
       .subject-matter {
         width:1200px;
+        p {
+          font-size: 28px;
+        }
       }
       .ui-tabs {
         .ui-tabs-nav {
@@ -946,6 +949,9 @@
         }
       }
       .page2 {
+        h2 {
+          font-size: 44px;
+        }
         .invitation {
           li {
             width:19%;
@@ -957,7 +963,7 @@
         }
         .two-big-photo {
           img {
-            width:50%;
+            height: 450px;
           }
         }
         .table {
@@ -986,7 +992,11 @@
       .page3 {
         .book-list {
           li {
-            width: inherit;
+            width: initial;
+            overflow: hidden;
+            h2 {
+              font-size: 44px;
+            }
             .photo-gallery-wrapp {
               float: left;
             }
@@ -1028,8 +1038,6 @@
         }
         &.small-message {
           position: relative;
-          bottom: 159px;
-          left: 478px;
           a {
             background-size: initial;
             background-position: -480px 0;
