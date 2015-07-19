@@ -9,30 +9,32 @@
       width:460px;
       .nav-page-list {
         margin-bottom: 15px;
-        .nav-page {
-          text-align: center;
-          li {
-            display: inline-block;
-            padding-right: 0;
-            a {
-              font-size: 19px;
+        li {
+          .nav-page {
+            text-align: center;
+            li {
+              display: inline-block;
+              padding: 0 10px;
+              a {
+                font-size: 25px;
+              }
             }
           }
-        }
-        #nav-page1 {
-          li {
-            padding-right:25px;
+          #nav-page1 {
+            li {
+              padding-right:25px;
+            }
           }
-        }
-        #nav-page2 {
-          li {
-            padding-right:15px;
+          #nav-page2 {
+            li {
+              padding-right:15px;
+            }
           }
-        }
-        #nav-page3 {
-          width: 460px;
-          li {
-            width: 116px;
+          #nav-page3 {
+            width: 460px;
+            li {
+              width: 93px;
+            }
           }
         }
       }
@@ -97,9 +99,10 @@
       .ui-tabs {
         .ui-tabs-nav {
           li {
+            height: 50px;
             a {
-              font-size: 13px;
-              padding: 11px 24px;
+              font-size: 11px;
+              padding: 11px 6px;
               font-family: 'MyriadProRegular';
             }
           }
@@ -182,7 +185,11 @@
         .two-big-photo {
           img {
             width:50%;
+            height: 200px;
           }
+        }
+        .commentary {
+          font-size: 17px;
         }
         .table {
           table {
@@ -208,8 +215,8 @@
             }
           }
           .commentary2 {
-            bottom: 22px;
-            font-size: 19px;
+            bottom: 52px;
+            font-size: 15px;
           }
         }
       }
@@ -217,8 +224,10 @@
         .book-list {
           li {
             text-align: center;
-            width: 117px;
             overflow: hidden;
+            &.message-item {
+
+            }
             h2 {
               font-size: 26px;
             }
@@ -254,6 +263,14 @@
             background-size: 417px auto;
             height: 109px;
             width: 294px;
+            p {
+              top: 23px;
+              left: 127px;
+              span {
+                font-weight: bold;
+                font-size: 18px;
+              }
+            }
           }
         }
         &.small-message {
@@ -262,6 +279,16 @@
             background-size: 400px auto;
             height: 110px;
             width: 105px;
+            p {
+              font-size: 25px;
+            }
+          }
+        }
+        &.small-text {
+          a {
+            p {
+              font-size: 25px;
+            }
           }
         }
       }
@@ -270,6 +297,12 @@
       height: 231px;
       margin: 0 auto 0;
       width: 459px;
+      .call-text {
+        p {
+          font-size: 22px;
+          top: 34px;
+        }
+      }
     }
     .contact-information {
       .label-phone {
@@ -300,9 +333,12 @@
         overflow: hidden;
         margin-left:0;
         margin-right: 10px;
-        .photo-love-ujin {
-          width:146px;
-          height:auto;
+        li {
+          margin-right: 0;
+          .photo-love-ujin {
+            width:146px;
+            height:auto;
+          }
         }
       }
     }
@@ -327,19 +363,17 @@
           margin-right: 11px;
         }
         input[type="submit"] {
-          font-size: 19px;
+          font-size: 24px;
           height: 48px;
           width:128px;
+          left: 15px;
+          margin-top: 22px;
         }
       }
     }
-    .call-me {
-      width:0;
-      .call-text {
-        p {
-          font-size: 22px;
-          top: 34px;
-        }
+    footer {
+      p {
+        padding-right: 15px;
       }
     }
   }
