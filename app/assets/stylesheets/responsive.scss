@@ -390,6 +390,7 @@
     min-width: 0;
     header {
       width:768px;
+      background-position: -100px -41px;
       .nav-page-list {
         li {
           .nav-page {
@@ -647,10 +648,11 @@
         }
         input[type="text"] {
           margin-right: 45px;
-          font-size: 17px;
+          font-size: 19px;
+          width: 330px;
         }
         input[type="submit"] {
-          font-size: 26px;
+          font-size: 35px;
           width: 220px;
         }
       }
