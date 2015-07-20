@@ -5,8 +5,9 @@
   .wrapper {
     width: 460px;
     min-width: 0;
-    header{
+    header {
       width:460px;
+      background-position: -172px -41px;
       .nav-page-list {
         margin-bottom: 15px;
         li {
@@ -166,16 +167,17 @@
         }
         .big-list-photo {
           li {
-            width:32%;
+            width:29%;
             height:auto;
-            &:nth-child(4){
-              width:52%;
+            &:nth-child(4) {
+              width:48%;
             }
-            &:last-child{
-              width:45.5%;
+            &:last-child {
+              width:45%;
             }
-            img{
+            img {
               width:100%;
+              height: 157px;
             }
           }
         }
