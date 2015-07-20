@@ -155,6 +155,7 @@
       .page2 {
         h2 {
           font-size: 26px;
+          font-weight: normal;
         }
         .invitation {
           li {
@@ -229,6 +230,10 @@
             overflow: hidden;
             h2 {
               font-size: 26px;
+              font-weight: normal;
+            }
+            .layflat {
+              text-transform: capitalize;
             }
             .photo-gallery-wrapp {
               float: none;
@@ -667,6 +672,7 @@
     width: 1024px;
     header {
       width: 1024px;
+      background-position: -3px -41px;
       .nav-page-list {
         li {
           .nav-page {
@@ -679,7 +685,7 @@
           #nav-page3 {
             width: 1024px;
             li {
-              width: 254px;
+              width: 245px;
             }
           }
         }
@@ -778,6 +784,9 @@
         }
       }
       .page2 {
+        h2 {
+          font-size: 40px;
+        }
         .table {
           padding-top: 22px;
           table {
@@ -811,8 +820,15 @@
         }
       }
       .page3 {
-        .photo-gallery-wrapp {
-          float: left;
+        .book-list {
+          li {
+            h2 {
+              font-size: 35px;
+            }
+            .photo-gallery-wrapp {
+              float: left;
+            }
+          }
         }
       }
     }
@@ -873,9 +889,10 @@
           width: 446px;
           font-size: 25px;
           margin-right: -5px;
+          margin-top: 30px;
         }
         input[type="submit"] {
-          font-size: 26px;
+          font-size: 38px;
           height: 58px;
           margin-bottom: 162px;
           width: 220px;
