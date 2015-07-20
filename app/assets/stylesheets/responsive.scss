@@ -391,14 +391,14 @@
             li {
               padding-right: 8px;
               a {
-                font-size:30px;
+                font-size:35px;
               }
             }
           }
           #nav-page3 {
             width: 768px;
             li{
-              width: 188px;
+              width: 175px;
             }
           }
         }
@@ -462,6 +462,7 @@
           li {
             a {
               padding: 10px 14.5px;
+              font-size: 17px;
             }
           }
         }
@@ -508,16 +509,17 @@
         }
         .big-list-photo {
           li {
-            width:32%;
+            width:30%;
             height:auto;
             &:nth-child(4) {
-              width:52%;
+              width:49%;
             }
             &:last-child {
               width:45%;
             }
             img {
               width:100%;
+              height: 260px;
             }
           }
         }
@@ -528,7 +530,7 @@
         }
         .table {
           table {
-            margin-left: 41px;
+            margin-left: 25px;
             td {
               padding-bottom: 60px;
               &.name {
@@ -564,6 +566,7 @@
       }
     }
     .message {
+      left: 75px;
       li {
         height: 160px;
         a {
@@ -580,6 +583,16 @@
           a {
             width: 450px;
             height: 159px;
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+        &.small-text {
+          a {
+            p {
+              font-size: 25px;
+            }
           }
         }
         &.small-message {
@@ -628,7 +641,8 @@
           width: 609px;
         }
         input[type="text"] {
-          margin-right: 55px;
+          margin-right: 45px;
+          font-size: 17px;
         }
         input[type="submit"] {
           font-size: 26px;

@@ -403,27 +403,27 @@
         <ul class="big-list-photo">
           <li>
             <%= link_to image_path('couple-bikes.JPG', alt: 'bikes'), data: {lightbox: :ZAP1_FULSIZE} do %>
-                <%= image_tag('color-list-photo-bikes.png', alt: 'photo bike', effect: :grayscale, class: 'photo_bike') %>
+                <%= image_tag('color-list-photo-bikes.png', alt: 'photo bike', effect: :grayscale, class: 'photo_bike', crop: :scale, :width => 0.33) %>
             <% end %>
           </li>
           <li>
             <%= link_to image_path('couple-flowers.JPG', alt: 'flowers'), data: {lightbox: :ZAP2_FULSIZE} do %>
-                <%= image_tag('color-list-photo-single.png', alt: 'photo_single', effect: :grayscale, class: 'photo_single') %>
+                <%= image_tag('color-list-photo-single.png', alt: 'photo_single', effect: :grayscale, class: 'photo_single', crop: :scale, :width => 0.33) %>
             <% end %>
           </li>
           <li>
             <%= link_to image_path('couple-butterfly.JPG', alt: 'butterfly'), data: {lightbox: :ZAP3_FULSIZE} do %>
-                <%= image_tag('color-list-photo-butterfly.png', alt: 'photo butterfly', effect: :grayscale, class: 'photo_butterfly') %>
+                <%= image_tag('color-list-photo-butterfly.png', alt: 'photo butterfly', effect: :grayscale, class: 'photo_butterfly', crop: :scale, :width => 0.33) %>
             <% end %>
           </li>
           <li>
             <%= link_to image_path('couple-passport.JPG', alt: 'passport'), data: {lightbox: :ZAP4_FULSIZE} do %>
-                <%= image_tag('color-list-photo-passport.png', alt: 'photo passport', effect: :grayscale, class: 'photo_passport') %>
+                <%= image_tag('color-list-photo-passport.png', alt: 'photo passport', effect: :grayscale, class: 'photo_passport', crop: :scale, :width => 0.5) %>
             <% end %>
           </li>
           <li>
             <%= link_to image_path('couple-multi-cards.JPG', alt: 'cards'), data: {lightbox: :ZAP5_FULSIZE} do %>
-                <%= image_tag('color-list-photo-cards.png', alt: 'photo cards', effect: :grayscale, class: 'photo_cards') %>
+                <%= image_tag('color-list-photo-cards.png', alt: 'photo cards', effect: :grayscale, class: 'photo_cards', crop: :scale, :width => 0.5) %>
             <% end %>
           </li>
         </ul>
