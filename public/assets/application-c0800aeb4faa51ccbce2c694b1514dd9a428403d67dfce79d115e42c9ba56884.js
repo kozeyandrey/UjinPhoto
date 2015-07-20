@@ -11660,7 +11660,7 @@ if(!(b.options.swipe===!1||"ontouchend"in document&&b.options.swipe===!1||b.opti
     $('header ul.nav').on('click', function (e) {
         var $target = $(e.target),
             oldNumber = $('.content ul li.display')[0].className[4],
-            newNumber = $target[0].className[5];
+            newNumber = $target[0].className[5] || 2;
 
         if (oldNumber !== newNumber) {
             $('#nav-page' + oldNumber)
