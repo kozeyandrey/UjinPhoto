@@ -1029,6 +1029,13 @@
         }
         .big-list-photo {
           padding-left: 0;
+          li {
+            a {
+              img {
+                height: 350px;
+              }
+            }
+          }
         }
         .two-big-photo {
           img {
